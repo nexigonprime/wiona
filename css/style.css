@@ -1,0 +1,66 @@
+body {
+    background-image: url('../img/pc.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+@media only screen and (max-width: 400px){
+    body {
+        background-image: url(../img/cell.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100%;
+    }
+}
+
+img {
+    padding-top: 10%;
+    width: 30%;
+    height: auto;
+    float: center;
+    border-radius: 50px;
+}
+
+@media only screen and (min-width: 400px) {
+img {
+    width: 15%;
+    border-radius: 50px;
+}
+}
+
+.center {
+    text-align: center;
+}
+
+p.title {
+    margin-top: 0;
+    font-size: 250%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+button {
+    /* background: rgb(192, 254, 255);
+    border-radius: 1000px;
+    box-shadow:    0 6px #ee6f13;
+    padding:       20px 45px;
+    color:         #0bf135;
+    display:       inline-block;
+    font:          normal bold 24px/1 "Komika", cursive;
+    text-align:    center;
+    text-shadow:   1px 1px #000000; */
+    background: rgb(136, 180, 202);
+    text-decoration: none;
+    border-radius: 1000px;
+    box-shadow: 0 3px rgb(176, 178, 209);
+    padding: 20px 45px;
+    color: blueviolet;
+    display: inline-block;
+    font: normal bold 24px/1 "Komika", cursive;
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+}
